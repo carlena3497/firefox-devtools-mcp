@@ -92,7 +92,10 @@ export function generateCssSelector(el: Element): string {
  * Escape CSS attribute value
  */
 function escapeCssAttributeValue(value: string): string {
-  return value.replace(/"/g, '\\' + '"').substring(0, MAX_SEGMENT_LENGTH);
+  return value
+    .replace(/\\/g, '\\\\')
+    .replace(/"/g, '\\"')
+    .substring(0, MAX_SEGMENT_LENGTH);
 }
 
 /**
