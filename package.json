@@ -64,7 +64,7 @@
     "node": ">=20.19.0"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.29.0",
+    "@modelcontextprotocol/sdk": "1.32.0",
     "geckodriver": "6.0.2",
     "selenium-webdriver": "4.36.0",
     "ws": "8.21.0",
@@ -92,7 +92,7 @@
     "tsup": "8.5.0",
     "tsx": "4.21.0",
     "typescript": "5.3.3",
-    "vitest": "4.1.8",
+    "vitest": "5.1.0",
     "webdriver-bidi-protocol": "^0.4.3"
   },
   "files": [
